@@ -1,0 +1,134 @@
+{{ define "main" }}
+<article class="post portfolio-home" aria-label="Xiaoyu Ma academic profile">
+  <div class="post-content">
+    <section class="profile-intro" id="about" data-aos="fade-up">
+      <p class="eyebrow">Computer Science · Shanghai Jiao Tong University</p>
+      <h1>苟利國家生死以, 豈因禍福避趨之</h1>
+      <p class="intro-copy">
+        I am a computer science undergraduate at Shanghai Jiao Tong University, focusing on researches of AI infrastructure, GPU programming, and AI Agents. Currently serving as a RA at Jaseci Labs, University of Michigan.
+      </p>
+      <div class="profile-links" aria-label="Contact and profile links">
+        <a class="profile-link primary" href="mailto:xiuyunmarx@gmail.com">xiuyunmarx@gmail.com</a>
+        <a class="profile-link" href="mailto:xiaoyu_ma@sjtu.edu.cn">xiaoyu_ma@sjtu.edu.cn</a>
+        <a class="profile-link" href="https://github.com/xiuyunMarx" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        <a class="profile-link" href="/files/Xiaoyu-Ma-Resume.pdf">Résumé ↓</a>
+      </div>
+      <div class="interest-list" aria-label="Research interests">
+        <span>AI Infrastructure</span>
+        <span>LLM Serving</span>
+        <span>Agentic Systems</span>
+        <span>GPU Programming</span>
+        <span>RDMA Networking</span>
+        <span>Cloud Computing</span>
+        <span>Programming Languages</span>
+        
+      </div>
+    </section>
+
+    <section class="portfolio-section" id="research" data-aos="fade-up">
+      <div class="section-heading">
+        <p class="section-kicker">01</p>
+        <div>
+          <h2>Research</h2>
+        </div>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item featured">
+          <div class="timeline-meta">
+            <span>Jul 2026 - Present</span>
+            <span>Research Intern</span>
+          </div>
+          <h3>Jaseci Labs, University of Michigan</h3>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-meta">
+            <span>Oct 2024 - Jun 2026</span>
+            <span>EPCC &middot SJTU</span>
+          </div>
+          <h3>SLO-Aware Proactive History Compression</h3>
+          <p>An SLO-aware GPU multiplexing system with asynchronous history compression for long-history generative recommendation serving under fluctuating workloads.</p>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-meta">
+            <span>Oct 2024 - Jun 2026</span>
+            <span>EPCC &middot SJTU</span>
+          </div>
+          <h3>ZAP: Adaptive Templating for Fast Startup of LLM Functions on GPUs</h3>
+          <p>Contributed multi-threaded optimizations to asynchronous model-weight loading and resolved critical-path correctness issues in the serving runtime. Implemented heterogeneous GPU peer-to-peer communication and RDMA-based remote model transfer, and benchmarked startup latency and execution overhead.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="portfolio-section" id="projects" data-aos="fade-up">
+      <div class="section-heading">
+        <p class="section-kicker">02</p>
+        <div>
+          <h2>Github Projects</h2>
+          <p>Some Interesting course project</p>
+        </div>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>Tiny File System</h3>
+          <p>An inode-based distributed file system over TCP with shell-like operations, write-ahead logging for crash consistency, and concurrent multi-user client handling.</p>
+        </article>
+        <article class="project-card">
+          <h3>RAG Course Assistant Agent</h3>
+          <p> multimodal text-and-image RAG agent with vector databases, including preprocessing, chunking, and vectorization pipelines for improved retrieval accuracy.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="portfolio-section" id="education" data-aos="fade-up">
+      <div class="section-heading">
+        <p class="section-kicker">03</p>
+        <div>
+          <h2>Education &amp; Skills</h2>
+        </div>
+      </div>
+
+      <div class="education-card">
+        <div>
+          <p class="school-year">2023 - 2027 (expected)</p>
+          <h3>Shanghai Jiao Tong University</h3>
+          <p>B.Eng. in Computer Science and Engineering</p>
+        </div>
+        <div class="education-stats">
+          <div><span>Core GPA</span><strong>3.79 / 4.0</strong></div>
+          <div><span>TOEFL iBT</span><strong>110 / 120</strong></div>
+        </div>
+      </div>
+
+      <div class="skill-grid">
+        <div>
+          <h3>Languages</h3>
+          <p>C/C++ · CUDA · Python · Jac</p>
+        </div>
+        <div>
+          <h3>Systems</h3>
+          <p>GPU memory management · LLM serving · RDMA · Distributed systems</p>
+        </div>
+        <div>
+          <h3>Award</h3>
+          <p>SJTU Academic Excellence Scholarship, Class C · 2025</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="photography-preview" data-aos="fade-up">
+      <div class="photography-copy">
+        <h2>Photography</h2>
+        <p>“If your pictures aren't good enough, you aren't close enough.”</p>
+        <a class="profile-link primary" href="/photography/">View selected work →</a>
+      </div>
+      <a class="photography-image" href="/photography/" aria-label="Open the photography gallery">
+        <img src="/images/photography/fuzhou-road.webp" alt="Street view along Fuzhou Road in Shanghai" loading="lazy">
+      </a>
+    </section>
+  </div>
+</article>
+{{ end }}

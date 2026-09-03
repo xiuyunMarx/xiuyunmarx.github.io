@@ -1,0 +1,28 @@
+baseURL = "https://xiuyunmarx.github.io/"
+languageCode = "en-US"
+defaultContentLanguage = "en"
+title = "Xiaoyu Ma"
+theme = "hugo-theme-reimu"
+enableRobotsTXT = true
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    languageCode = "en-US"
+    locale = "en-US"
+    weight = 1
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [["\\[", "\\]"], ["$$", "$$"]]
+          inline = [["\\(", "\\)"], ["$", "$"]]
+  [markup.highlight]
+    guessSyntax = true
+    noClasses = false
+
+[outputs]
+  home = ["HTML", "RSS"]

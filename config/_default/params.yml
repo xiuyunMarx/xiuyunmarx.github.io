@@ -1,0 +1,167 @@
+menu:
+  - name: home
+    url: "/"
+    icon:
+  - name: research
+    url: "/#research"
+    icon: false
+  - name: projects
+    url: "/#projects"
+    icon: false
+  - name: photography
+    url: "/photography/"
+    icon: false
+  - name: resume
+    url: "/files/Xiaoyu-Ma-Resume.pdf"
+    icon: false
+
+mainSections: ["post"]
+author: Xiaoyu Ma
+email: xiuyunmarx@gmail.com
+description: "I am a normal students."
+keywords:
+  - Xiaoyu Ma
+  - AI infrastructure
+  - LLM serving
+  - GPU systems
+  - RDMA
+  - programming languages
+
+subtitle:
+  typing:
+    enable: true
+    strings:
+      - "AI Infra"
+      - "LLM Serving"
+      - "GPU and CUDA"
+      - "Programming Languages"
+      - "Agentic Systems"
+    typeSpeed: 65
+    backSpeed: 35
+    backDelay: 1800
+    startDelay: 250
+    loop: true
+    shuffle: false
+    showCursor: true
+    cursorChar: "|"
+    smartBackspace: true
+  text: "AI Infra"
+
+banner: "images/photography/blue-hour-city.webp"
+avatar: "avatar.webp"
+cover: false
+toc: false
+
+open_graph:
+  enable: true
+  options:
+    twitter_card: summary_large_image
+
+copyright:
+footer:
+  since: 2026
+  powered: true
+  count: false
+  busuanzi: false
+  icon:
+    url: "../images/taichi.png"
+    rotate: true
+    mask: true
+
+sidebar:
+  position: right
+  menu: true
+  article:
+    show_common: true
+
+social:
+  email: "mailto:xiuyunmarx@gmail.com"
+  github: "https://github.com/xiuyunMarx"
+
+widgets: []
+
+layout:
+  max_width: 1200px
+
+reimu_cursor:
+  enable: true
+  cursor:
+    default: ../images/cursor/reimu-cursor-default.png
+    pointer: ../images/cursor/reimu-cursor-pointer.png
+    text: ../images/cursor/reimu-cursor-text.png
+
+font:
+  enable: true
+  article:
+    - Mulish
+    - Noto Serif SC
+  code:
+    - JetBrains Mono
+
+dark_mode:
+  button: true
+  type: auto
+
+algolia_search:
+  enable: false
+
+preloader:
+  enable: true
+  text:
+    en: Loading...
+  icon:
+  rotate: true
+
+animation:
+  enable: true
+  options:
+    header:
+      title: slide-up
+      subTitle: slide-down
+    home:
+      post: fade-up
+      widget: fade-up
+      sidebar: fade-up
+    article:
+      whole: fade-up
+      date: zoom-in
+      category: zoom-in
+      tag: zoom-in
+      comment: zoom-in
+      reading: zoom-in
+      nav: fade-up
+    archive:
+      whole: fade-up
+      tag: zoom-in
+      category: zoom-in
+      section: fade-up
+      nav: fade-up
+
+firework:
+  enable: false
+
+top:
+  enable: true
+  position: right
+  icon:
+    url: "../images/taichi.png"
+    rotate: true
+    mask: true
+
+article_copyright:
+  enable: false
+
+comment:
+  default: giscus
+
+pjax:
+  enable: false
+
+service_worker:
+  enable: false
+
+pace:
+  enable: true
+
+injector:
+  head_end: '<link rel="stylesheet" href="/css/custom.css">'
