@@ -55,6 +55,7 @@
 }
 
 .profile-intro {
+  container-type: inline-size;
   position: relative;
   overflow: hidden;
 }
@@ -87,7 +88,7 @@
   margin: 0 0 20px;
   color: var(--portfolio-ink);
   font-family: "Noto Serif SC", Georgia, serif;
-  font-size: clamp(2.2rem, 6vw, 4.4rem);
+  font-size: min(clamp(2.2rem, 6vw, 4.4rem), 12cqi);
   line-height: 1.06;
   letter-spacing: -0.04em;
 }
@@ -365,7 +366,7 @@
   }
 
   .profile-intro h1 {
-    font-size: 2.35rem;
+    font-size: min(2.35rem, 12cqi);
   }
 
   .profile-links {
